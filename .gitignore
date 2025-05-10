@@ -1,0 +1,73 @@
+# Node.js (Vite / React frontend)
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env.*.local
+frontend/.cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+*.DS_Store
+*.sqlite3
+*.pkl
+*.pt
+*.onnx
+*.h5
+*.ckpt
+*.env
+.env
+.env.*
+
+# FastAPI / Python backend
+backend/__pycache__/
+backend/*.pyc
+backend/.env
+backend/.pytest_cache/
+backend/venv/
+backend/env/
+backend/.mypy_cache/
+backend/.coverage
+backend/.DS_Store
+
+# Training
+training/runs/
+training/weights/
+training/checkpoints/
+training/*.pt
+training/*.log
+training/datasets/  # only if datasets are large or private
+training/__pycache__/
+
+# System
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# VS Code
+.vscode/
+
+# Jupyter Notebooks (optional)
+.ipynb_checkpoints/
+
+# Docker
+**/Dockerfile
+**/docker-compose.yml
+**/.dockerignore
+
+# Logs
+logs/
+*.log
+*.out
+
+# OS-specific
+ehthumbs.db
+Icon?
+
